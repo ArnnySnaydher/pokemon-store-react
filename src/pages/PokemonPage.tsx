@@ -63,7 +63,7 @@ export const PokemonPage = () => {
             <header className="app-header">
                 <div className='logo-header'>
                     <Link to='/' className='logo-header'>
-                        <img src="https://media.discordapp.net/attachments/839620709517230081/1026864145942970390/pngegg_1.png?width=644&height=676" className="app-logo" alt="logo" />
+                        <img src="https://res.cloudinary.com/react-romel/image/upload/v1711509563/portfolio/moneda_mario_yg5hsq.webp" className="app-logo" alt="logo" />
                         <h1 className='nes-text'>
                             PokeStore
                         </h1>
@@ -98,7 +98,7 @@ export const PokemonPage = () => {
                                     <button
                                         onClick={() => handleFavorite(pokemon)}
                                         className="nes-btn is-primary btn-favorite" >
-                                        <i className={`nes-icon heart ${favorites.find(p => p.id === pokemon.id) ? 'is-filled' : 'is-transparent'
+                                        <i className={`nes-icon heart ${ favorites.find(p => p.id === pokemon.id) ? 'is-filled' : 'is-transparent'
                                             }`}></i>
                                     </button>
                                     <p className="title">{pokemon.id}</p>
@@ -113,7 +113,7 @@ export const PokemonPage = () => {
                                             Agregar al carrito
                                         </p>
                                         <img
-                                            src="https://media.discordapp.net/attachments/839620709517230081/1026943195931746334/kindpng_2906150.png"
+                                            src="https://res.cloudinary.com/react-romel/image/upload/v1711509694/portfolio/Pokebola-pokeball-png-0_tbejoa.png"
                                             alt="pokeball"
                                             title="pokeball"
                                             style={{ width: '2rem', height: '2rem' }}
@@ -134,7 +134,7 @@ export const PokemonPage = () => {
                                         <button
                                             onClick={() => handleFavorite(pokemon)}
                                             className="nes-btn is-primary btn-favorite" >
-                                            <i className={`nes-icon heart ${favorites.find(p => p.id === pokemon.id) ? 'is-filled' : 'is-transparent'
+                                            <i className={`nes-icon heart ${ favorites.find(p => p.id === pokemon.id) ? 'is-filled' : 'is-transparent'
                                                 }`}></i>
                                         </button>
                                         <p className="title">{pokemon.id}</p>
@@ -149,7 +149,7 @@ export const PokemonPage = () => {
                                                 Agregar al carrito
                                             </p>
                                             <img
-                                                src="https://media.discordapp.net/attachments/839620709517230081/1026943195931746334/kindpng_2906150.png"
+                                                src="https://res.cloudinary.com/react-romel/image/upload/v1711509694/portfolio/Pokebola-pokeball-png-0_tbejoa.png"
                                                 alt="pokeball"
                                                 title="pokeball"
                                                 style={{ width: '2rem', height: '2rem' }}
@@ -235,7 +235,7 @@ export const PokemonPage = () => {
                     )
                 }
                 <div
-                    className={`${openCredit ? 'is-open' : 'is-close '}`}
+                    className={`${ openCredit ? 'is-open' : 'is-close ' }`}
                 >
                     <div
                         onClick={() => setopenCredit(!openCredit)}
