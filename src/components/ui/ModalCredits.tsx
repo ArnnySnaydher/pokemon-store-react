@@ -58,7 +58,7 @@ export const ModalCredits = () => {
                     <p className="title">Obtener Créditos</p>
                     <div className="favorites-container">
                         <div className="favorite-item">
-                            <p>Aqui se obtienen créditos</p>
+                            <p>Se obtienen créditos</p>
                             <Player
                                 ref={playerRef}
                                 autoplay
